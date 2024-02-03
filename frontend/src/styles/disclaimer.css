@@ -1,0 +1,34 @@
+.disclaimers .hover-text {
+  display: none;
+}
+
+.disclaimers .initial-message {
+  align-self: stretch;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 10%;
+  color: #939393;
+  width: 376px;
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.disclaimers:hover .initial-message {
+  display: none;
+}
+
+.disclaimers:hover .hover-text {
+  display: block;
+  margin-right: 120px;
+  margin-left: 120px;
+  bottom: 0;
+  width: 376px;
+  color: #939393;
+  font-family: IBM Plex Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

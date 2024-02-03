@@ -1,0 +1,120 @@
+.login-page {
+  display: flex;
+  padding: 33px 399px 33px 399px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;    
+}
+
+.login-header {
+  flex-shrink: 0;
+  color: #101810;
+  text-align: left;
+  font-family: IBM Plex Serif;
+  font-size: 28px;
+  /* padding: 0px 798px 0px 275px; */
+  font-style: normal;
+  font-weight: 700;
+  align-items: left;
+  line-height: normal;
+}
+
+.login-command-box {
+  display: flex;
+  width: 570px;
+  padding: 20px 20px 20px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 2px solid var(--Main-Green, #83C082);
+  color: #939393;
+  font-size: 18px;
+  font-family: IBM Plex Serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.login-button {
+  display: flex;
+  width: 175px;
+  height: 55px;
+  padding: 23px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--light-green, #BCE8BB);
+  color: #345933;
+  text-align: center;
+  font-family: IBM Plex Serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.login-button:hover {
+  border-color: #646cff;
+  background-color: #e3ffe2;
+  color: #25252C;
+}
+
+.or-sign-in {
+  flex-direction: column;
+  align-items: center;
+  color: #345933;
+  text-align: center;
+  font-family: IBM Plex Serif;
+  font-size: 18px;
+  position: relative;
+}
+
+.or-sign-in::before,
+.or-sign-in::after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  background: #458244;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.or-sign-in::before {
+  left: -205px;
+}
+
+.or-sign-in::after {
+  right: -205px;
+}
+
+.google-logo {
+  width: 42px;
+  height: 45px;
+}
+
+.registering {
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.register-link {
+  color:forestgreen;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+

@@ -1,0 +1,133 @@
+.journal-display {
+  display: flex;
+}
+
+.journal-input {
+  display: flex;
+  width: 672px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  flex-shrink: 0;
+  align-self: stretch;
+} 
+
+.journal-prompt {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.prompt-heading {
+  font-family: IBM Plex Serif;
+  font-size: 28px;
+  margin-bottom: -0.01%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.prompt-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;  
+  width: 672px;
+}
+
+.prompt-text {
+  font-family: IBM Plex Serif;
+  font-size: 22px;
+}
+
+.date {
+  color: #A0A0A0;
+  text-align: right;
+  margin-left: 20px;
+  font-family: IBM Plex Serif;
+  font-size: 18px;  
+}
+
+.journal-command-box {
+  display: flex;
+  height: 28%;
+  padding: 22px 33px 425px 33px;
+  font-family: IBM Plex Serif;
+  color: #939393;
+  font-size: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 10px;
+  border: 1.5px solid var(--Main-Green, #83C082);
+  resize: none;
+  
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.prev-next-menu {
+  display: flex;
+  width: 196.935px;
+  align-items: center;
+  gap: 30px;
+}
+
+.prev-button {
+  background-color: transparent;
+  color: #939393;
+  text-align: center;
+  font-family: IBM Plex Serif;
+  font-size: 16px;
+}
+
+.next-button {
+  background-color: transparent;
+  color: #939393;
+  text-align: center;
+  font-family: IBM Plex Serif;
+  font-size: 16px;
+}
+
+.submit-button {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  display: flex;
+  background-color: #BCE8BB;
+  cursor: pointer;
+  width: 310px;
+  height: 50px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  align-items: center;
+  transition: border-color 0.25s;
+}
+
+.submit-text {
+  color: #25252C;
+  font-family: IBM Plex Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.submit-arrows {
+  width: 37px;
+  height: 35px;
+  flex-shrink: 0;
+
+}
+
+.submit-button:hover {
+  border-color: #646cff;
+  background-color: #e3ffe2;
+  color: #25252C;
+}

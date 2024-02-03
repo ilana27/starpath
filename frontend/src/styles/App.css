@@ -1,0 +1,48 @@
+
+
+.App-header {
+  background-color: #83C082;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.header-text {
+  font-size: 36px;
+  color: black;
+  margin-left: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  margin-right: 120px;
+}
+
+.journal-container {
+  display: flex;
+  padding: 20px 120px 30px 120px;
+  flex-shrink: 0;
+}
+
+.on-submit-click {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.empty-panel {
+  width: 100px;
+  height: 600px;
+}
