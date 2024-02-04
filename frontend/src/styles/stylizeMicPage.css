@@ -1,0 +1,66 @@
+.box {
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  .box .mask-group {
+    height: 1024px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .box .main-star-console {
+    background-color: #ffffff;
+    height: 1024px;
+  }
+  
+  .box .overlap-group {
+    background-image: url(./download-4-1.png);
+    background-size: 100% 100%;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .box .element {
+    height: 79px;
+    left: 672px;
+    object-fit: cover;
+    position: absolute;
+    top: 672px;
+    width: 48px;
+  }
+  
+  .box .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    left: 400px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 926px;
+    width: 685px;
+  }
+  
+  .box .screenshot {
+    height: 163px;
+    left: 93px;
+    object-fit: cover;
+    position: absolute;
+    top: 370px;
+    width: 187px;
+  }
+  
+  .box .img {
+    height: 163px;
+    left: 1135px;
+    object-fit: cover;
+    position: absolute;
+    top: 370px;
+    width: 198px;
+  }
+  

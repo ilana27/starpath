@@ -1,0 +1,36 @@
+:root {
+    --b-font-family: "Inter-Regular", Helvetica;
+    --b-font-size: 18px;
+    --b-font-style: normal;
+    --b-font-weight: 400;
+    --b-letter-spacing: 0px;
+    --b-line-height: normal;
+    --collection-1-light-green: rgba(188, 232, 187, 1);
+    --collection-1-main-green: rgba(131, 192, 130, 1);
+    --s-font-family: "IBMPlex Serif-Regular", Helvetica;
+    --s-font-size: 16px;
+    --s-font-style: normal;
+    --s-font-weight: 400;
+    --s-letter-spacing: 0px;
+    --s-line-height: normal;
+    --t1-font-family: "IBMPlex Serif-Bold", Helvetica;
+    --t1-font-size: 36px;
+    --t1-font-style: normal;
+    --t1-font-weight: 700;
+    --t1-letter-spacing: 0px;
+    --t1-line-height: normal;
+    --t2-font-family: "IBMPlex Serif-Bold", Helvetica;
+    --t2-font-size: 28px;
+    --t2-font-style: normal;
+    --t2-font-weight: 700;
+    --t2-letter-spacing: 0px;
+    --t2-line-height: normal;
+    --t3-font-family: "IBMPlex Serif-SemiBold", Helvetica;
+    --t3-font-size: 22px;
+    --t3-font-style: normal;
+    --t3-font-weight: 600;
+    --t3-letter-spacing: 0px;
+    --t3-line-height: normal;
+  }
+
+  

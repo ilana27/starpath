@@ -1,0 +1,135 @@
+.box {
+    height: 1121px;
+    position: relative;
+    width: 1645px;
+  }
+  
+  .box .group {
+    height: 1121px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1645px;
+  }
+  
+  .box .frame {
+    background-color: #84bc83ba;
+    height: 131px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 990px;
+    width: 1645px;
+  }
+  
+  .box .DISCLAIMER-STARPATH {
+    color: #000000;
+    font-family: "IBM Plex Serif-Regular", Helvetica;
+    font-size: 37.4px;
+    font-weight: 400;
+    height: 60px;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    width: 1582px;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "IBM Plex Serif-Regular", Helvetica;
+    font-size: 37.4px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .box .span {
+    font-family: "IBM Plex Serif-Medium", Helvetica;
+    font-size: 23px;
+    font-weight: 500;
+  }
+  
+  .box .overlap-group-wrapper {
+    background-color: #84bc83ba;
+    height: 772px;
+    left: 0;
+    position: absolute;
+    top: 218px;
+    width: 1645px;
+  }
+  
+  .box .overlap-group {
+    background-image: url(./image-2.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 772px;
+    position: relative;
+  }
+  
+  .box .div {
+    color: #ffffff;
+    font-family: "IBM Plex Serif-Bold", Helvetica;
+    font-size: 37.4px;
+    font-weight: 700;
+    height: 76px;
+    left: 529px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+    width: 588px;
+  }
+  
+  .box .p {
+    color: #ffffff;
+    font-family: "IBM Plex Serif-SemiBold", Helvetica;
+    font-size: 34px;
+    font-weight: 600;
+    height: 240px;
+    left: 241px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 234px;
+    width: 1258px;
+  }
+  
+  .box .overlap-wrapper {
+    background-color: #82ac81;
+    height: 218px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1645px;
+  }
+  
+  .box .overlap {
+    height: 140px;
+    position: relative;
+    top: 9px;
+  }
+  
+  .box .pajamas-profile {
+    height: 80px;
+    left: 1474px;
+    position: absolute;
+    top: 60px;
+    width: 84px;
+  }
+  
+  .box .welcome-to-starpath {
+    color: #000000;
+    font-family: "IBM Plex Serif-Bold", Helvetica;
+    font-size: 37.4px;
+    font-weight: 700;
+    height: 121px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 0;
+    width: 1645px;
+  }
+  
